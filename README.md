@@ -1,7 +1,11 @@
 # pic2smms
 to upload image to the smms picbed
 
+# how to install
+`npm i pic2smms`
+
 # how to use
+
 ```javascript
 //to use it on your server
 const upload = require('pic2smms');
