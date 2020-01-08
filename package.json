@@ -1,6 +1,6 @@
 {
   "name": "pic2smms",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "to upload image to the smms picbed",
   "main": "index.js",
   "scripts": {
