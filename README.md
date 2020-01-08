@@ -1,0 +1,49 @@
+# pic2smms
+to upload image to the smms picbed
+
+# how to use
+```javascript
+//to use it on your server
+async function test1() {
+    let result = await upload('./1.png');
+    console.log(result)
+}
+test1()
+
+//if you are the vip or registered user, you can use the token to save the image for you account
+async function test2() {
+    let result = await upload('./1.png', 'your token');
+    console.log(result)
+}
+test2()
+```
+
+```javascript
+//get the result
+async function test3() {
+    let result = await upload('./1.png');
+    console.log(result.data)
+}
+
+test3()
+//show the result
+data: {
+    success: true,
+    code: 'success',
+    message: 'Upload success.',
+    data: {
+      file_id: 0,
+      width: 1000,
+      height: 966,
+      filename: '1.png',
+      storename: 'xxxxxxx.png',
+      size: 50116,
+      path: '/2020/01/08/X284KvEH3xflntk.png',
+      hash: 'xxxxxxx',
+      url: 'https://i.loli.net/2020/01/08/xxxxxxx.png',
+      delete: 'https://sm.ms/delete/xxxxxxx',
+      page: 'https://sm.ms/image/xxxxxxx'
+    },
+    RequestId: 'xxxxxxx-xxxxxxx-xxxxxxx-xxxxxxx-xxxxxxx'
+}
+```
