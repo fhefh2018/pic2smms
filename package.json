@@ -1,27 +1,27 @@
 {
-  "name": "pic2smms",
-  "version": "1.0.3",
-  "description": "to upload image to the smms picbed",
-  "main": "index.js",
-  "scripts": {
-    "test": "node test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fhefh2018/pic2smms.git"
-  },
-  "keywords": [
-    "smms",
-    "picbed"
-  ],
-  "author": "Aric",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fhefh2018/pic2smms/issues"
-  },
-  "homepage": "https://github.com/fhefh2018/pic2smms#readme",
-  "dependencies": {
-    "axios": "^0.19.1",
-    "form-data": "^3.0.0"
-  }
+    "name": "pic2smms",
+    "version": "1.0.4",
+    "description": "to upload image to the smms picbed",
+    "main": "index.js",
+    "scripts": {
+        "test": "node test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fhefh2018/pic2smms.git"
+    },
+    "keywords": [
+        "smms",
+        "picbed"
+    ],
+    "author": "Aric",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/fhefh2018/pic2smms/issues"
+    },
+    "homepage": "https://github.com/fhefh2018/pic2smms#readme",
+    "dependencies": {
+        "axios": "^0.19.1",
+        "form-data": "^3.0.0"
+    }
 }
